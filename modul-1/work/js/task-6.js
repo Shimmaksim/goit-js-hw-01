@@ -1,4 +1,4 @@
-let total = 0;
+let totalNumber = 0;
 let input;
 
 // do {
@@ -33,7 +33,7 @@ let input;
 do {
   input = prompt("Ввведите число");
   if (input !== null) {
-    total += Number(input);
+    totalNumber += Number(input);
   }
 } while (input !== null);
-alert(`Общая сумма чисел равна ${total}`);
+alert(`Общая сумма чисел равна ${totalNumber}`);
